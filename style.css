@@ -10,10 +10,6 @@
 
 /* 1. Body styles */
 
-* {
-    margin: 0 auto;
-}
-
 body {
     font-family: "Helvetica", sans-serif;
     font-size: 22px;
@@ -63,6 +59,7 @@ nav ul li {
 
 main {
     padding-top: 69px;
+    margin: 0 auto;
 }
 
 /* 5. Footer styles */
