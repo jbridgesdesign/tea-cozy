@@ -80,7 +80,7 @@ footer {
 /* Mission section */
 
 #mission {
-    background: url(/Mission_Background_Image.jpg) no-repeat center;
+    background: url(Mission_Background_Image.jpg) no-repeat center;
     max-width: 1200px;
     height: 700px;
     display: flex;
@@ -125,7 +125,7 @@ footer {
 /* Locations section */
 
 #locations {
-    background: url(/Image_Locations_Background.jpg) no-repeat center;
+    background: url(Image_Locations_Background.jpg) no-repeat center;
     max-width: 1200px;
     height: 500px;
     display: flex;
