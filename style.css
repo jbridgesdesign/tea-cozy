@@ -1,0 +1,153 @@
+/* Stylesheet for The Tea Cozy website */
+
+/* CSS Guide 
+    - 1. Body styles
+    - 2. Header styles
+    - 3. Navigation styles
+    - 4. Main content styles
+    - 5. Footer styles
+    - 6. Specific section styles */
+
+/* 1. Body styles */
+
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+a:hover {
+    color: orange
+}
+
+/* 2. Header styles */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* 3. Navigation styles */
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+/* 4. Main content styles */
+
+main {
+    padding-top: 69px;
+}
+
+/* 5. Footer styles */
+
+#copyright {
+    padding: 25px 0 30px 0;
+    text-align: left;
+    display: block;
+    margin-left: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+}
+
+/* 6. Specific section styles */
+
+/* Mission section */
+
+#mission {
+    background: url(/Mission_Background_Image.jpg) no-repeat center;
+    max-width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#mission-article {
+    min-height: 100px;
+    background-color: #000;
+    width: 100%;
+}
+
+/* Tea of the Month section */
+
+#tea-of-the-month {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#tea-of-the-month article {
+    margin-bottom: 20px;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+#tea-of-the-month img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#tea-of-the-month-header {
+    margin-bottom: 10px;
+    display: inline;
+    width: 100%;
+}
+
+/* Locations section */
+
+#locations {
+    background: url(/Image_Locations_Background.jpg) no-repeat center;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+    display: inline;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.locations-article {
+    width: 300px;
+    background-color: #000;
+    flex-direction: column;
+    flex-grow: 3;
+    padding-bottom: 15px;
+    margin: 0 20px 20px 20px;
+    opacity: 1;
+}
